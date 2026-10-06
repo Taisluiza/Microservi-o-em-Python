@@ -1,8 +1,11 @@
 import os
 
+from dotenv import load_dotenv
 from fastapi import FastAPI
 
 from app.checkout.router import router as checkout_router
+
+load_dotenv()
 
 app = FastAPI(title="Checkout Commerce", version="0.1.0")
 
