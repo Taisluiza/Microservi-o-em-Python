@@ -1,5 +1,4 @@
-from pydantic import BaseModel 
-# BaseModel é do paydantic, caso as informações não esteja ele informa o que está faltando.
+from pydantic import BaseModel
 
 
 class PaymentMethodRequest(BaseModel):
